@@ -1,9 +1,7 @@
 # Module_11_challenge
 ### Submission Date: May 10,2023
-________
-## Step 1
 
-![Trends for the Month of May 2020](Images/1 - Trends for the Month of May 2020.png)
+## Step 1
 
 **Do any unusual patterns exist?**
 
