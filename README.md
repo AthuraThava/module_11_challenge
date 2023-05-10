@@ -3,6 +3,8 @@
 ________
 ## Step 1
 
+![Trends for the Month of May 2020](Images/1 - Trends for the Month of May 2020.png)
+
 **Do any unusual patterns exist?**
 
 The search trends during May 2020, starts of with a high search trend value at the beginning of the day. Then graudually falls to a single digital search trends value by the time range of 8:00:00 - 10:00:00. The search trend value then increases to a higher value by the end of the day. This pattern repeats through the rest of the month for each day, creating a bouncy sideways trend pattern.
