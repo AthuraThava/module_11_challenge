@@ -3,7 +3,7 @@
 
 ## Step 1: Find unusual patterns in hourly Google search traffic
 
-![Trends for the Month of May 2020](Images/1 - Trends for the Month of May 2020.png)
+![image](https://github.com/AthuraThava/module_11_challenge/assets/125240804/a34efc38-1d1f-4040-b272-85395c30622d)
 
 **Do any unusual patterns exist?**
 
@@ -17,13 +17,13 @@ The Google search traffic increased by 3008.5 during May 2020 when MercadoLibre 
 
 ## Step 2: Mine the search traffic data for seasonality
 
-![Average Serach Trends by Day of Week](Images/2 - Average Serach Trends by Day of Week.png)
+![image](https://github.com/AthuraThava/module_11_challenge/assets/125240804/468d9d19-25eb-49c5-9aaf-9fe4f0635e5e)
 
 **Does any day-of-week effect that you observe concentrate in just a few hours of that day?**
 
 The search concentration on days 5 and 6 is greater then the concentration on days 0 to 4 during the 6th hour. This change in concentration shifts the heatmap concentration for days 5 and 6 for the remainder of the day. The search concentration is more saturated before the 3 hour window and after the 20 hour window.
 
-![Average Search Trends by Week of Year](Images/3 - Average Search Trends by Week of Year.png)
+![image](https://github.com/AthuraThava/module_11_challenge/assets/125240804/6c3b4747-850c-4436-bfab-af0116e39fb4)
 
 **Does the search traffic tend to increase during the winter holiday period (weeks 40 through 52)?**
 
@@ -31,19 +31,19 @@ The search trend during the winter holiday period (Weeks 40-52) increases until 
 
 ## Step 3: Relate the search traffic to stock price patterns
 
-![MercadoLibre Stock Closing Prices](Images/4 - MercadoLibre Stock Closing Prices.png)
+![image](https://github.com/AthuraThava/module_11_challenge/assets/125240804/4f5c6f1d-cca1-438d-aca4-6637a9a54ca6)
 
-![MercadoLibre Stock Closing Prices (January-June 2020](Images/5 - MercadoLibre Stock Closing Prices (January-June 2020).png)
+![image](https://github.com/AthuraThava/module_11_challenge/assets/125240804/0751d14c-9739-4f06-91dd-aedb68625c9d)
 
-![Search Trends (January-June 2020](Images/5 - Serach Trends (January-June 2020).png)
+![image](https://github.com/AthuraThava/module_11_challenge/assets/125240804/018ba302-2bcd-498f-8901-16f13fb3c15c)
 
 **Do both time series indicate a common trend that’s consistent with this narrative?**
 
 Both time series indicate a common trend throughout the period of January - June 2020. During the pandemic both time series trends had a downward drop from 02/25/2020 to 03/11/2020 creating a bear market for MercadoLibre. The introduction of new customers and revence in the e-commerce industry allowed the serach trends to recover. The stock market continued on a downward trend till 04/03/2020. When the increase in e-commerce revenue started affecting the market, MercadoLibre's closing prices started increasing as the search trend had.
 
-![MercadoLibre Stock Volatility](Images/6 - MercadoLibre Stock Volatility.png)
+![image](https://github.com/AthuraThava/module_11_challenge/assets/125240804/6877ca47-6857-4a33-8787-652d0a43e3d7)
 
-![Stock Trend Table](Images/7 - Stock Trend Table.png)
+![image](https://github.com/AthuraThava/module_11_challenge/assets/125240804/cba3474f-5b8c-491c-ba24-c00c97b923f6)
 
 **Does a predictable relationship exist between the lagged search traffic and the stock volatility or between the lagged search traffic and the stock price returns?**
 
@@ -51,17 +51,17 @@ Stock volatility and lagged search traffic are correlated negatively, while hour
 
 ## Step 4: Create a Time Series Model with Prophet
 
-![Prophet predictions for the Mercado trends data ](Images/8.1 - Prophet predictions for the Mercado trends data .png)
+![image](https://github.com/AthuraThava/module_11_challenge/assets/125240804/aae12e9a-009e-4fbb-83ba-5a982cc2918b)
 
-![Prophet predictions for the Mercado trends data](Images/8.2 - Prophet predictions for the Mercado trends data.png)
+![image](https://github.com/AthuraThava/module_11_challenge/assets/125240804/867d58e0-d6b4-406e-bd1b-f96b91d151a2)
 
 **How's the near-term forecast for the popularity of MercadoLibre?**
 
 The near-term forecast for the popularity of MercadoLibre predicts a negative downward trend.
 
-![Most Likely, Best Case, and Worst Case Dorecasts from Prophet](Images/9 - Most Likely, Best Case, and Worst Case Dorecasts from Prophet.png)
+![image](https://github.com/AthuraThava/module_11_challenge/assets/125240804/4819ffba-df80-4b58-a918-b1431d810c46)
 
-![Figures Mercado Trends](Images/10 - Figures Mercado Trends.png)
+![image](https://github.com/AthuraThava/module_11_challenge/assets/125240804/36af8c9b-68f3-4176-834f-9b4236578771)
 
 **What time of day exhibits the greatest popularity?**
 
@@ -77,21 +77,19 @@ The lowest point for the serach traffic in the calendar year is mid-october.
 
 ## Step 5 (Optional): Forecast Revenue by Using Time Series Models
 
-![Mercado Libre Daily Sales](Images/11 - Mercado Libre Daily Sales.png)
+![image](https://github.com/AthuraThava/module_11_challenge/assets/125240804/46fc0d7b-35d3-4e0d-9896-489b18ccdfa4)
 
-![Figures Mercado Sales](Images/12 - Figures Mercado Sales.png)
+![image](https://github.com/AthuraThava/module_11_challenge/assets/125240804/f5f40714-e347-45a7-b3a7-811f33437157)
 
 **For example, what are the peak revenue days? (Mondays? Fridays? Something else?)**
 
 The peak revenue days in the week is Wednesday, followed by Monday.
 
-![Mercado Sales Prophet Model](Images/13.1 - Mercado Sales Prophet Model.png)
+![image](https://github.com/AthuraThava/module_11_challenge/assets/125240804/b94ad96e-33b7-4144-86c5-5ab55e1e363b)
 
-![Mercado Sales Prophet Model](Images/13.2 - Mercado Sales Prophet Model.png)
+![image](https://github.com/AthuraThava/module_11_challenge/assets/125240804/74014a63-fbdd-4520-8d3a-a8947d4fcb56)
 
-![Mercado Sales_Forecast Quarter ](Images/14 - Mercado Sales_Forecast Quarter .png)
-
-![Mercado Sales_Forecast Quarter Sum](Images/15 - Mercado Sales_Forecast Quarter Sum.png)
+![image](https://github.com/AthuraThava/module_11_challenge/assets/125240804/b4c5f631-c373-4cfc-a0b5-3bbad55d4555)
 
 **Based on the forecast information generated above, produce a sales forecast for the finance division, giving them a number for expected total sales next quarter. Include best and worst case scenarios, to better help the finance team plan.**
 
